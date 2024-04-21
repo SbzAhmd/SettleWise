@@ -1,0 +1,54 @@
+html,
+body {
+  height: 90%;
+  background-color: #cbbcb9;
+}
+
+#mynetwork {
+  width: 50%;
+  height: 100%;
+  border: 1px solid lightgray;
+}
+
+#container2 {
+  width: 50%;
+  height: 100%;
+  border: 1px solid lightgray;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+#mynetwork2 {
+  width: 100%;
+  height: 100%;
+}
+
+#container {
+  width: 90%;
+  height: 70%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  margin: 30px auto;
+}
+
+#generate-graph {
+  margin: auto;
+  display: block;
+}
+
+#solve {
+  margin: auto;
+  display: block;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+.container-with-shadow {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  transition: 0.3s; 
+  padding: 20px; 
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SettleWise - Payment Settlement App</title>
+    <link rel="icon" type="image/png" href="./images/logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/5548f5ed00.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./heap.js"></script>
+    <script src="./script.js" type="module"></script>
+
+    <style>
+      /* Style for the footer */
+      footer {
+        background-color: #494d5f;
+        color: #cbbcb9;
+        padding: 20px;
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav
+      class="navbar navbar-light"
+      style="
+        font-size: 30px;
+        font-family: Comic Sans MS;
+        background-color: #494d5f;
+      "
+    >
+      <div style="color: #cbbcb9; padding-left: 10px">
+        SettleWise
+        <img
+          style="border-radius: 10%"
+          src="./images/logo.png"
+          width="60"
+          height="50"
+        />
+      </div>
+    </nav>
+
+    <div id="container" class="container-with-shadow">
+      <div id="mynetwork"></div>
+      <div id="container2">
+        <span
+          id="temptext"
+          style="
+            width: 100%;
+            text-align: center;
+            font-size: x-large;
+            color: #cbbcb9;
+          "
+        >
+          Click on solve to get Solution !!
+        </span>
+        <div id="mynetwork2" style="display: none"></div>
+      </div>
+    </div>
+
+    <div class="button-container">
+      <br />
+
+      <button
+        style="color: #ffffff"
+        type="button"
+        class="btn btn-danger"
+        id="generate-graph"
+      >
+        Get New Problem
+      </button>
+      <br />
+
+      <button
+        style="color: #ffffff"
+        type="button"
+        class="btn btn-success"
+        id="solve"
+      >
+        Solve
+      </button>
+
+      <br />
+    </div>
+
+    <footer>
+      <p>
+        Made By Shabaz © | Contact: sbzahmd21101@gmail.com | Github Profile:
+        <a href="https://github.com/SbzAhmd">@SbzAhmd </a>
+      </p>
+    </footer>
+  </body>
+</html>
